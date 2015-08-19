@@ -13,14 +13,17 @@
 		<link rel="apple-touch-icon" href="${assetPath(src: 'apple-touch-icon.png')}">
 		<link rel="apple-touch-icon" sizes="114x114" href="${assetPath(src: 'apple-touch-icon-retina.png')}">
                 
-                <script type="text/javascript" src="${resource(dir:'js',file:'jquery-ui-1.8.13.custom.min.js')}"></script>
+                <link rel="stylesheet" type="text/css" href="${resource(dir:'css',file:'jquery-ui-1.8.11.custom.css')}" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">       
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-                
   		<asset:stylesheet src="application.css"/>
 		<asset:javascript src="application.js"/>
 		<g:layoutHead/>
+                <script type="text/javascript" src="${resource(dir:'js',file:'jquery-2.1.4.min.js')}"></script>
+                <script type="text/javascript" src="${resource(dir:'js',file:'jquery-ui.js')}"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+                
+
                 <style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
@@ -100,7 +103,18 @@
 					margin-top: 0;
 				}
 			}
+                        
+                        
+                        .bordered td {
+                          background-color: #fffdf2;
+
+                        }
 		</style>
+                <script>  
+                $(function() {     
+                  $("#tabs").tabs();
+                });
+                </script>
 	</head>
 	<body>
 		<div id="grailsLogo" role="banner">
