@@ -475,7 +475,7 @@ th.desc a {
 	background: #ffffff;
 }
 
-th:hover, tr:hover {
+th:hover, td:hover {
 	background: #E1F2B6;
 }
 

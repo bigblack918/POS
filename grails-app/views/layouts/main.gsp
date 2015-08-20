@@ -16,13 +16,20 @@
                 <link rel="stylesheet" type="text/css" href="${resource(dir:'css',file:'jquery-ui-1.8.11.custom.css')}" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">       
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+                <link  rel="stylesheet" href="${resource(dir:'css',file:'docs.css')}" type="text/css" />
+                <link  rel="stylesheet" href="${resource(dir:'css',file:'redmond.datepick.css')}" type="text/css" />
   		<asset:stylesheet src="application.css"/>
 		<asset:javascript src="application.js"/>
 		<g:layoutHead/>
-                <script type="text/javascript" src="${resource(dir:'js',file:'jquery-2.1.4.min.js')}"></script>
+                
+                <script type="text/javascript" src="${resource(dir:'js',file:'jquery-1.7.2.min.js')}"></script>
                 <script type="text/javascript" src="${resource(dir:'js',file:'jquery-ui.js')}"></script>
+                <script language="javascript" src="${resource(dir:'js',file:'jquery.datepick.js')}" type="text/javascript"></script>
+                <script language="javascript" src="${resource(dir:'js',file:'jquery.datepick.tw.js')}" type="text/javascript"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
                 
+                <script type="text/javascript" src="${resource(dir:'js',file:'tool.js')}"></script>
+        
 
                 <style type="text/css" media="screen">
 			#status {
@@ -68,7 +75,7 @@
                         #page {
 				margin: 2em 1em 1.25em 1.25em;
 			}
-
+                        
 			h2 {
 				margin-top: 1em;
 				margin-bottom: 0.3em;
@@ -105,10 +112,6 @@
 			}
                         
                         
-                        .bordered td {
-                          background-color: #fffdf2;
-
-                        }
 		</style>
                 <script>  
                 $(function() {     

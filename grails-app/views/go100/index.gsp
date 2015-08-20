@@ -11,8 +11,6 @@
         <meta name="layout" content="main">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Sample title</title>
-
-        
     </head>
     <body>
         <div id="page" role="main">
@@ -24,12 +22,12 @@
                     </td>
                     <td width="35%">
                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="輸入123" >
-                    </td>
+                    </td> 
                     <td class="info" width="15%">
-                        123123
+                        date
                     </td>
                     <td width="35%">
-                        123123
+                        <g:date id="qcsdt" name="qcsdt" value="" size="10" />
                     </td>
                 </tr>    
                 <tr>
@@ -37,7 +35,7 @@
                         <label for="exampleInputEmail1">123123</label>
                     </td>
                     <td width="35%">
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="輸入123">
+                        <g:date id="qcedt" name="qcedt" value="" size="10" />
                     </td>
                     <td class="info" width="15%">
                         123123
