@@ -15,47 +15,33 @@
     <body>
         <div id="page" role="main">
             <g:formRemote name="la100Form" id="la100Form" update="queryResultDiv"  url="[action:'query',controller:'go100']">
-             <table class="table table-bordered">
+             <table class="bordered">
                 <tr>
-                    <td class="info" width="15%">
+                    <th width="15%">
                         <label for="exampleInputEmail1">123123</label>
-                    </td>
+                    </th>
                     <td width="35%">
                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="輸入123" >
                     </td> 
-                    <td class="info" width="15%">
+                    <th width="15%">
                         date
-                    </td>
+                    </th>
                     <td width="35%">
                         <g:date id="qcsdt" name="qcsdt" value="" size="10" />
                     </td>
                 </tr>    
                 <tr>
-                    <td class="info" width="15%">
-                        <label for="exampleInputEmail1">123123</label>
-                    </td>
-                    <td width="35%">
-                        <g:date id="qcedt" name="qcedt" value="" size="10" />
-                    </td>
-                    <td class="info" width="15%">
-                        123123
-                    </td>
-                    <td width="35%">
-                        123123
-                    </td>
-                </tr> 
-                <tr>
-                    <td class="info" colspan="4">
+                    <th class="header1" colspan="4">
                         <button type="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> 查詢</button>
                         <button type="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-plus"></span> 新增</button>
                         
-                    </td>
+                    </th>
                 </tr>
              </table>
           </g:formRemote>   
             
           <div id="queryResultDiv" style="height: 410px">
-            <g:render template="queryResult" />
+  
           </div>
           
           
