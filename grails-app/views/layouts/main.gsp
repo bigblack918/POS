@@ -18,7 +18,6 @@
                 <link rel="stylesheet" type="text/css" href="${resource(dir:'themes',file:'icon.css')}" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">       
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-                <link  rel="stylesheet" href="${resource(dir:'css',file:'docs.css')}" type="text/css" />
                 <link  rel="stylesheet" href="${resource(dir:'css',file:'redmond.datepick.css')}" type="text/css" />
                 <link  rel="stylesheet" href="${resource(dir:'css',file:'view.css')}" type="text/css" />
   		<asset:stylesheet src="application.css"/>
