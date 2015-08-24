@@ -11,9 +11,9 @@
                     
                     <div class="btn-group" role="group" aria-label="..." style="width:960px;">
                         
-                        <button type="button" class="btn btn-default" onclick="addPanel('Left', '${createLink(controller:"go100",action:"index")}')">Left</button>
-                        <button type="button" class="btn btn-default">Middle</button>
-                        <button type="button" class="btn btn-default">Right</button>
+                        <button type="button" class="btn btn-default btn-bottom" onclick="addPanel('Left', '${createLink(controller:"go100",action:"index")}')">Left</button>
+                        <button type="button" class="btn btn-default btn-bottom">Middle</button>
+                        <button type="button" class="btn btn-default btn-bottom">Right</button>
                         <sapn style="float:right;">
                             <g:form name="login" controller="auth" action="signIn">
                                 <g:message code="login.username.label" default="帳號: " /><g:textField name="username" />

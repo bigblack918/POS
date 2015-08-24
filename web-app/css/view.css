@@ -198,3 +198,9 @@ table {
   overflow: hidden; /* 超過範圍隱藏 */
   white-space: nowrap; /* 不斷行 */
 }
+
+.btn-bottom
+{
+    position: relative;
+    top: 2.5rem;
+}
